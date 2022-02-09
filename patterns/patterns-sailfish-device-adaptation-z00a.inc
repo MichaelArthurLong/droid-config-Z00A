@@ -1,18 +1,18 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-%package -n patterns-sailfish-device-adaptation-Z00A
-Summary: Jolla HW Adaptation Z00A
-Requires: droid-hal-Z00A
-Requires: droid-hal-Z00A-img-boot
-Requires: droid-hal-Z00A-kernel-modules
-Requires: droid-config-Z00A-sailfish
-Requires: droid-config-Z00A-pulseaudio-settings
-Requires: droid-config-Z00A-policy-settings
-Requires: droid-config-Z00A-preinit-plugin
-Requires: droid-config-Z00A-flashing
-Requires: droid-config-Z00A-bluez5
-Requires: droid-hal-version-Z00A
+%package -n patterns-sailfish-device-adaptation-z00a
+Summary: Jolla HW Adaptation z00a
+Requires: droid-hal-z00a
+Requires: droid-hal-z00a-img-boot
+Requires: droid-hal-z00a-kernel-modules
+Requires: droid-config-z00a-sailfish
+Requires: droid-config-z00a-pulseaudio-settings
+Requires: droid-config-z00a-policy-settings
+Requires: droid-config-z00a-preinit-plugin
+Requires: droid-config-z00a-flashing
+Requires: droid-config-z00a-bluez5
+Requires: droid-hal-version-z00a
 
 # Hybris packages
 Requires: libhybris-libEGL
@@ -78,7 +78,7 @@ Requires: geoclue-provider-hybris
 #Requires: nfcd-binder-plugin
 #Requires: nfcd-pn54x-plugin
 
-%description -n patterns-sailfish-device-adaptation-Z00A
-Pattern with packages for Z00A HW Adaptation
+%description -n patterns-sailfish-device-adaptation-z00a
+Pattern with packages for z00a HW Adaptation
 
-%files -n patterns-sailfish-device-adaptation-Z00A
+%files -n patterns-sailfish-device-adaptation-z00a

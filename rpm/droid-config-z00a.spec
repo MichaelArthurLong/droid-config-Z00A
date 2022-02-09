@@ -1,6 +1,8 @@
 # These and other macros are documented in ../droid-configs-device/droid-configs.inc
 # Feel free to cleanup this file by removing comments, once you have memorised them ;)
 
+# rpm has to be lowercase
+%define rpm_device z00a
 %define device Z00A
 %define vendor asus
 
@@ -19,8 +21,8 @@
 %define pixel_ratio 1.0
 
 %include droid-configs-device/droid-configs.inc
-%include patterns/patterns-sailfish-device-adaptation-Z00A.inc
-%include patterns/patterns-sailfish-device-configuration-Z00A.inc
+%include patterns/patterns-sailfish-device-adaptation-z00a.inc
+%include patterns/patterns-sailfish-device-configuration-z00a.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:
